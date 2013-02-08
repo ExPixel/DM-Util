@@ -1,0 +1,24 @@
+// DM Environment file for Utils.dme.
+// All manual changes should be made outside the BEGIN_ and END_ blocks.
+// New source code should be placed in .dm files: choose File/New --> Code File.
+
+// BEGIN_INTERNALS
+// END_INTERNALS
+
+// BEGIN_FILE_DIR
+#define FILE_DIR .
+// END_FILE_DIR
+
+// BEGIN_PREFERENCES
+#define DEBUG
+// END_PREFERENCES
+
+// BEGIN_INCLUDE
+#include "#defs.dm"
+#include "Misc.dm"
+#include "Lists\Lists.dm"
+#include "Math\Fractions.dm"
+#include "Math\Math.dm"
+#include "Strings\Strings.dm"
+// END_INCLUDE
+
